@@ -1,0 +1,27 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
+.contenedor{
+    margin: 0 auto;
+    max-width: 120rem;
+    padding: 1rem;
+    display: flex;
+}
+
+.azul{
+    background-color: skyblue;
+    width: 10rem;
+    height: 10rem;
+}
+
+.amarillo{
+    background-color: yellow;
+    width: 10rem;
+    height: 10rem;
+}

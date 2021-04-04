@@ -1,0 +1,217 @@
+:root{
+    --blanco: #FFF;
+    --negro: #212121;
+    --gris: #757575;
+    --amarillo: #ffc107;
+    --azul: #0097a7;
+    --darkMode : #f3f3f3;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, #dfe9f3 0%, var(--blanco) 100%);
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(97,97,97,0.5);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(97,97,97,0.5);
+    box-shadow: 0px 5px 15px 0px rgba(97,97,97,0.5);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* Header */
+
+.barra{
+    background-color: var(--negro);
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion a{
+    font-size: 2.8rem;
+    margin: 2rem;
+    color: var(--blanco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navegacion a:hover{
+    color: var(--amarillo);
+}
+
+/* Video */
+
+.video{
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.contenido-video{
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--blanco);
+}
+
+.contenido-video span{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+/* Servicios */
+
+.servicios{
+    margin-top: 3rem;
+}
+
+.titulo-servicios{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.servicio{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 2rem;
+    margin-bottom: 3rem;
+    width: 100rem;
+}
+
+.servicio img{
+    width: 20rem;
+}
+
+.volteado{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    column-gap: 2rem;
+}
+
+.volteado img{
+    order: 1;
+}
+
+.texto-servicio{
+    font-size: 2.2rem;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--negro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: var(--gris);
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+/* Contacto */
+
+.formulario{
+    margin: 3rem auto 0 auto;
+    width: 60rem;
+    padding: 3rem;
+}
+
+.formulario p{
+    font-size: 1.8rem;
+    color: #4F4F4F;
+    font-weight: 700;
+    margin: 2rem 0 0 0;
+}
+
+legend{
+    font-size: 3rem;
+    color: #333;
+}
+
+label{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+input:not([type="submit"]), textarea, select{
+    padding: 1rem;
+    display: block;
+    width: 99%;
+    background-color: #E1E1E1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+}
+
+input[type="radio"]{
+    width: auto;
+    margin: 2rem 0 0 0;
+}
+
+textarea{
+    height: 20rem;
+}
+
+.contacto{
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enviar{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--blanco);
+    background-color: var(--azul);
+}
+
+.enviar:hover{
+    cursor: pointer;
+}
+

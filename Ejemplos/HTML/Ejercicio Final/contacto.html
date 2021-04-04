@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Freelancer</title>
+    </head>
+    <body>
+        
+        <header>
+            <nav class="navegacion contenedor">
+                <a href="index.html">Inicio</a>
+                <a href="sobre_mi.html">Sobre Mi</a>
+                <a href="experiencia.html">Experiencia</a>
+                <a href="#">Contacto</a>
+
+                <figure>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="4" />
+                        <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+                    </svg>
+                </figure>
+
+                <figure>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun-off" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="3" y1="3" x2="21" y2="21" />
+                        <path d="M16 12a4 4 0 0 0 -4 -4m-2.834 1.177a4 4 0 0 0 5.66 5.654" />
+                        <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+                    </svg>
+                </figure>
+            </nav>
+        </header>
+
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu nombre...">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Tu email...">
+
+                <label for="tel">Teléfono:</label>
+                <input type="tel" id="tel" placeholder="Tu telefono">
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos para Cita</legend>
+
+                <label for="date">Día</label>
+                <input type="date" id="date">
+
+                <label for="time">Hora</label>
+                <input type="time" id="time">
+
+                <label for="presupuesto">Presupuesto</label>
+                <input type="number" id="presupuesto">
+            </fieldset>
+
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>Preferencia para contactarte</p>
+
+                <div class="contacto">
+                    <p>Email</p>
+                    <input type="radio">
+                    <p>Teléfono</p>
+                    <input type="radio">
+                </div>
+
+                <label for="mensaje">Comentarios Adicionales</label>
+                <textarea id="mensaje" placeholder="Tu mensaje..."></textarea>
+            </fieldset>
+
+            <button type="button">Enviar</button>
+        </form>
+        
+        <footer>
+            <p>Ricardo Palomares <span>Freelancer</span> &copy;</p>
+
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="sobre_mi.html">Sobre Mi</a>
+                <a href="experiencia.html">Experiencia</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </footer>
+    </body>
+</html>

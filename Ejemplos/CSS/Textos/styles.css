@@ -1,0 +1,80 @@
+:root{
+    --color-texto: #0fd140;;
+    --texto-grande: 5rem;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
+.fondo-azul{
+    background-color: blue;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.titulo-principal{
+    font-size: 3.2rem;
+    text-align: center;
+    color: yellow;
+}
+
+.titulo-principal{
+    /* font-weight: 300; */
+    /* font-weight: 900; */
+    /* font-size: 1rem; */
+    /* font-size: 5rem; */
+    /* color: black; */
+    /* color: #0fd140; */
+    /* color: rgb(90, 60, 30); */
+    /* color: rgba(90, 60, 30, 0.1); */
+    /* color: rgba(90, 60, 30, 0.8); */
+    /* color: hsl(50, 100%, 100%); */
+    /* color: hsl(50, 70%, 50%); */
+    /* color: hsla(50, 70%, 50%, 0.1); */
+    /* color: hsla(50, 70%, 50%, 0.8); */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: none; */
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+}
+
+.titulo-secundario{
+    font-size: 2.2rem;
+    text-align: center;
+    color: gray;
+}
+
+.text-blanco{
+    color: white;
+    text-align: center;
+}
+
+.text-blanco{
+    /* text-align: justify; */
+}
+
+.imagen{
+    width: 50rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-transform: capitalize;
+}
