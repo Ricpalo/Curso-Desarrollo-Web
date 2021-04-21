@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
     eventos1();
     eventos2();
     eventos3();
+    eventos4();
 });
 
 function eventos1(){
@@ -34,7 +35,6 @@ function eventos3(){
     const titulo = document.querySelector('h1');
 
     titulo.addEventListener('click', function(){
-
         const textoHola = document.createElement('P');
         textoHola.classList.add('texto');
         textoHola.textContent = 'Hola';
@@ -45,4 +45,40 @@ function eventos3(){
             textoHola.remove();
         }, 2000);
     });
+}
+
+function eventos4(){
+    const azul = document.querySelector('.azul');
+    const verde = document.querySelector('.verde');
+    const amarillo = document.querySelector('.amarillo');
+
+    azul.addEventListener('click', function(){
+        for(let i = 0; i < 2; i++){
+            textoHola();
+        }
+    });
+
+    verde.addEventListener('click', function(){
+        for(let i = 0; i < 5; i++){
+            textoHola();
+        }
+    });
+
+    amarillo.addEventListener('click', function(){
+        for(let i = 0; i < 10; i++){
+            textoHola();
+        }
+    });
+}
+
+function textoHola(){
+    const textoHola = document.createElement('P');
+    textoHola.classList.add('texto');
+    textoHola.textContent = 'Hola';
+
+    document.querySelector('.textos').appendChild(textoHola);
+
+    setTimeout(() => {
+        textoHola.remove();
+    }, 2000);
 }

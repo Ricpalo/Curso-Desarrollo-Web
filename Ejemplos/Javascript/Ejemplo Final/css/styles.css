@@ -11,6 +11,30 @@ body{
     background-color: skyblue;
 }
 
+.botones{
+    display: flex;
+    justify-content: space-between;
+    max-width: 120rem;
+    margin: 5rem auto;
+}
+
+.boton{
+    width: 10rem;
+    height: 10rem;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.verde{
+    background-color: green;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
 .texto{
     font-size: 5rem;
     text-align: center;
